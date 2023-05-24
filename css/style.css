@@ -43,6 +43,7 @@ img {
     margin: 0;
 }
 
+
 /** Grid **/
 @media (min-width: 768px) {
     .grid {
@@ -71,6 +72,25 @@ img {
 }
 
 /*------------------ Botones --------------------------*/ 
+
+.formulario{
+    margin: 1rem;
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: rgb(199, 39, 39) !important;
+    border: 2px solid skyblue;
+}
+.a{
+    background-color: gainsboro;
+    }
 .btn {
     display: block;
     text-align: center;
@@ -111,16 +131,16 @@ img {
     }
 }
 .site-header {
-    background-image: url(../img/h_bck.jpg);
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url(../fotos/pruebam.jpg);
+    background-position: center;
     background-size: cover;
-    height: 60rem;
+    font-size: 80px;
+    height: 50rem;
 }
 .site-header a {
-    color: green;
+    color: rgb(216, 87, 87);
     text-decoration: none;
-    margin-top: 30rem;
+   
 }
 .site-header h1 {
     text-align: center;
@@ -130,15 +150,17 @@ img {
     font-weight: 700;
 }
 /** Navegacion **/
-.navegacion{
-    margin-top: 30rem;
-}
+
+
+
+    
+
 
 .navegacion a {
     text-align: center;
     display: inline-block;
     font-size: 3rem;
-    color: green;
+    color: rgb(216, 87, 87);;
     text-decoration: none;
     font-weight: 700;
 }
@@ -266,7 +288,7 @@ img {
 
 .table {
     margin: 5rem !important;
-    width: 50% !important; 
+    width: 100% !important; 
  }
 
 
@@ -287,12 +309,9 @@ img {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1rem;
-    background-color: green !important;
+    background-color: rgb(199, 39, 39) !important;
 }
 
 .employee_table{
     max-width: 1200px;
 }
- /**
-   * Add the correct display in IE 10.
-   */
